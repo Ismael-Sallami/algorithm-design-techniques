@@ -1,0 +1,12 @@
+# Cases whose output cannot be compared against a fixed file, with what is
+# checked instead.
+#
+#   <case name>  |  <extended regex the output must match>
+#
+# Recording a golden for these would be recording one run of a dice roll, and the
+# test would fail on the next one. What is checked is the shape of the answer.
+
+# Builds its preference matrix with srand(time(NULL)), so both the matrix and the
+# pairing change on every run. What has to hold is that four students come out
+# paired two by two, each printed as "i,j(value)".
+greedy_student_pairing | ^[0-9]+,[0-9]+\([0-9]+\)$

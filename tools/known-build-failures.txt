@@ -1,0 +1,11 @@
+# Programs that were handed in and do not compile. They are not fixed: a
+# submission rewritten to please a compiler is no longer the submission. What
+# run-tests.sh does instead is assert that each one still fails, so this list
+# cannot quietly go stale.
+#
+# One path per line, as it appears under src/.
+
+# Uses INT32_MAX without including <cstdint>. GCC used to pull it in through
+# another header and no longer does, so the file that was marked in 2024 does
+# not build today.
+src/04-dynamic-programming/river_trip.cpp

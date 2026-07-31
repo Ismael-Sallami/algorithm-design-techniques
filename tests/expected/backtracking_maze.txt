@@ -1,0 +1,11 @@
+Laberinto:
+True  True  True  
+True  False True  
+True  False True  
+
+Hay una solucion.
+Camino recorrido:
+(5, 5) 
+X  X  X  
+X  X  X  
+X  X  X  

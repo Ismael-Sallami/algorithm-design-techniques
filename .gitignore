@@ -1,0 +1,16 @@
+# compiled programs
+bin/
+
+# what the benchmark programs write
+Datos*.txt
+*.dat
+fit.log
+
+# what street_paving writes when graphviz is installed
+*.dot
+*.dot.png
+
+# OS and editors
+.DS_Store
+.idea/
+.vscode/

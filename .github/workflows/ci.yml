@@ -1,0 +1,23 @@
+# Builds the 31 programs, runs every case and compares the output against
+# tests/expected. Two known defects in what was handed in are asserted rather
+# than skipped, so the day one is repaired the build breaks and the list gets
+# corrected.
+name: tests
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Compiler version
+        run: g++ --version
+
+      - name: Build, run and compare
+        run: bash tools/run-tests.sh

@@ -1,0 +1,25 @@
+Matriz de adyacencia:
+0 10 0 20 0 
+10 0 15 0 25 
+0 15 0 30 0 
+20 0 30 0 35 
+0 25 0 35 0 
+Lista de adyacencia:
+Nodo 0: 1 3 1 3 
+Nodo 1: 0 0 2 4 2 4 
+Nodo 2: 1 1 3 3 
+Nodo 3: 0 2 0 2 4 4 
+Nodo 4: 1 3 1 3 
+Distancia del origen al vértice 0: 0
+Distancia del origen al vértice 1: 10
+Distancia del origen al vértice 2: 25
+Distancia del origen al vértice 3: 20
+Distancia del origen al vértice 4: 35
+La lista de predecesores es: 
+
+1 
+1 2 
+3 
+1 4 
+
+La distancia más corta desde 0 a 4 es: 35

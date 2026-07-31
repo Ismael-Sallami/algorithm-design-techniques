@@ -1,0 +1,3 @@
+Vector con repetidos: 
+7 10 9 7 5 7 10 0 9 1 2 7 Vector sin repetidos: 
+0 1 2 5 7 9 10 

@@ -1,0 +1,7 @@
+Usando el algoritmo divide y vencerás:
+Tornillo 1 emparejado con tuerca 1
+Tornillo 2 emparejado con tuerca 2
+Tornillo 3 emparejado con tuerca 3
+Tornillo 4 emparejado con tuerca 4
+Tornillo 5 emparejado con tuerca 5
+Los vectores coinciden

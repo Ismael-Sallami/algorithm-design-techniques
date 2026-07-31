@@ -1,0 +1,19 @@
+Laberinto:
+True  False False False False True  
+True  True  True  True  True  True  
+False True  False True  False True  
+False True  True  True  False True  
+False True  False True  False True  
+True  True  False True  True  True  
+
+Hay una solucion.
+Camino recorrido:
+(5, 0) (5, 1) (4, 1) (3, 1) (2, 1) (1, 1) (1, 2) (1, 3) (2, 3) (3, 3) (4, 3) (5, 3) (5, 4) (5, 5) 
+
+Debemos de pasar por el caminito de círculos para llegar a la salida del laberinto desde el punto de inicio {0,0}: 
+X  X  X  X  X  X  
+X  O  O  O  X  X  
+X  O  X  O  X  X  
+X  O  X  O  X  X  
+X  O  X  O  X  X  
+O  O  X  O  O  O  

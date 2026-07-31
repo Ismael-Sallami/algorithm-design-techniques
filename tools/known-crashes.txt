@@ -1,0 +1,14 @@
+# Cases that were handed in and crash when run. They are not fixed, for the same
+# reason as the build failures: run-tests.sh asserts that each one still crashes,
+# so if one is ever repaired the test breaks and this list gets updated instead
+# of quietly lying.
+#
+# One case name per line, as it appears in tests/cases.txt.
+
+# Counting sort over an unsigned index:
+#     for (size_t i = arr1.size() - 1; i >= 0; --i)
+# `i >= 0` is always true for size_t, so after i = 0 it wraps to SIZE_MAX and the
+# next read is out of bounds. Segmentation fault on every run. The second half of
+# the same function loops with `int` and is fine, which is what makes it look
+# right at a glance.
+nuts_and_bolts_iterative
