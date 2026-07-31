@@ -132,7 +132,7 @@ The last line is not the same check as the others. Removing duplicates by divide
 returns **the same set in a different order**, because sorting falls out of the merge for
 free, so what is compared there is the set and not the text.
 
-## What I learned
+## What we learned
 
 - Solving the same statement twice, once greedily and once with backtracking, teaches more
   than either alone. The greedy pairing is not wrong so much as satisfied too early.
