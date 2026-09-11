@@ -9,8 +9,8 @@ and conquer, greedy, backtracking with branch and bound, and dynamic programming
 
 ## Context
 
-Coursework for **Algorítmica**, year 2 of the double degree in Computer Science and Business
-Administration, University of Granada (2023-24). Team work with **José Ángel Carretero
+Coursework for **Algorithmics**, year 2 of the double degree in Computer Science and
+Business Administration, University of Granada (2023-24). Team work with **José Ángel Carretero
 Montes**, **Fernando José Gracia Choin**, **Minerva Cebrián Marín** and **Jesús Rodríguez
 González**.
 
